@@ -2,7 +2,7 @@
 
 ### Project Description:
 #### This project was an analysis on video game sales in different regions from 1980 to 2020. The data was sourced from a public site: https://www.kaggle.com/datasets/gregorut/videogamesales
-#### I created a PostrgreSQL database and then imported the data in csv file format into the table. I performed a series of queries to analyze the data:  
+#### I created a PostrgreSQL database and then imported the data (csv file) into the table. I performed a series of queries to analyze the data:  
 ### Regional and global sales for each genre:
 <img width="586" alt="Screen Shot 2023-11-09 at 11 12 09 PM" src="https://github.com/stephenaigner/videogamesales/assets/90224544/706b9899-736a-41d9-8168-afe3f84619fa">
 
