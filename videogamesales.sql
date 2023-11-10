@@ -6,26 +6,27 @@ GROUP BY "Genre"
 ORDER BY SUM("Global_Sales") DESC;
 
 /*
-Top 10 video games by regional and global sales
+Top 10 selling video games around the world
 */
 SELECT "Name", "NA_Sales", "EU_Sales", "JP_Sales", "Other_Sales" "Global_Sales" FROM public."Video Game Sales"
 ORDER BY "Global_Sales" DESC
 LIMIT 10;
 
 /*
-Regional and global sales for each Platform
+Top 10 selling video game platforms
 */
 SELECT "Platform", SUM("NA_Sales") AS "NA Sales", SUM("EU_Sales") AS "EU Sales", SUM("JP_Sales") AS "JP Sales", SUM("Other_Sales") AS "Other Sales", SUM("Global_Sales") AS "Global Sales" FROM public."Video Game Sales"
 GROUP BY "Platform"
-ORDER BY SUM("Global_Sales") DESC;
+ORDER BY SUM("Global_Sales") DESC
+LIMIT 10;
 
 /*
-Regional and global sales for top 50 publishers
+Top 10 selling video game publishers
 */
 SELECT "Publisher", SUM("NA_Sales") AS "NA Sales", SUM("EU_Sales") AS "EU Sales", SUM("JP_Sales") AS "JP Sales", SUM("Other_Sales") AS "Other Sales", SUM("Global_Sales") AS "Global Sales" FROM public."Video Game Sales"
 GROUP BY "Publisher"
 ORDER BY SUM("Global_Sales") DESC
-LIMIT 50;
+LIMIT 10;
 
 /*
 Regional and global sales for each Year
@@ -36,7 +37,7 @@ GROUP BY "Year"
 ORDER BY "Year" ASC;
 
 /*
-Global sales for top 3 genres
+Global sales for best-selling video games from the top 3 genres
 */
 SELECT "Name", "Genre", SUM("Global_Sales") AS "Global Sales" FROM public."Video Game Sales"
 WHERE "Genre" = 'Action'
@@ -57,7 +58,7 @@ ORDER BY SUM("Global_Sales") DESC
 LIMIT 10;
 
 /*
-Global sales for top 3 platforms
+Global sales for the best-selling video games from the top 3 platforms
 */
 SELECT "Name", "Platform", SUM("Global_Sales") AS "Global Sales" FROM public."Video Game Sales"
 WHERE "Platform" = 'PS2'
@@ -76,4 +77,3 @@ WHERE "Platform" = 'PS3'
 GROUP BY "Name", "Platform"
 ORDER BY SUM("Global_Sales") DESC
 LIMIT 10;
-
