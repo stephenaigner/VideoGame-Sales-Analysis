@@ -8,7 +8,7 @@ ORDER BY SUM("Global_Sales") DESC;
 /*
 Top 10 selling video games around the world
 */
-SELECT "Name", "NA_Sales", "EU_Sales", "JP_Sales", "Other_Sales" "Global_Sales" FROM public."Video Game Sales"
+SELECT "Name", "NA_Sales", "EU_Sales", "JP_Sales", "Other_Sales", "Global_Sales" FROM public."Video Game Sales"
 ORDER BY "Global_Sales" DESC
 LIMIT 10;
 
