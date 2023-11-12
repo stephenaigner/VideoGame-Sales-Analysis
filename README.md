@@ -1,8 +1,8 @@
 # Video Game Sales Analysis
 
 ### Project Description:
-#### This project was an analysis on video game sales during their year of release in different regions from 1980 to 2020. The data was sourced from a public site: https://www.kaggle.com/datasets/gregorut/videogamesales
-#### I created a PostrgreSQL database and then imported the data (csv file) into the table. I performed a series of queries to analyze the data (see below). I then developed interactive data visualizations with Tableau BI Software. Here is a link to the published Tableau dashboards: https://public.tableau.com/views/VideoGameSalesAnalysis_16996624076180/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
+* This project was an analysis on video game sales during their year of release in different regions from 1980 to 2020. The data was sourced from a public site: https://www.kaggle.com/datasets/gregorut/videogamesales
+* I created a PostrgreSQL database and then imported the data (csv file) into the table. I performed a series of queries to analyze the data (see below). I then developed interactive data visualizations with Tableau BI Software. Here is a link to the published Tableau dashboards: https://public.tableau.com/views/VideoGameSalesAnalysis_16996624076180/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
 <img width="992" alt="Screen Shot 2023-11-12 at 3 45 40 AM" src="https://github.com/stephenaigner/VideoGame-Sales-Analysis/assets/90224544/6d1743d7-86fa-4934-a6c9-9d90d0072ac8">
 <img width="1020" alt="Screen Shot 2023-11-12 at 3 47 01 AM" src="https://github.com/stephenaigner/VideoGame-Sales-Analysis/assets/90224544/dab4f4a4-fc16-49fe-bc01-3689f8b7e140">
 
