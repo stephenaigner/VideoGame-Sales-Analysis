@@ -2,11 +2,12 @@
 
 ### Project Description:
 * This project was an analysis on video game sales during their year of release in different regions from 1980 to 2020. The data was sourced from a public site: [Data Source](https://www.kaggle.com/datasets/gregorut/videogamesales)
-* I created a PostrgreSQL database and then imported the data (csv file) into the table. I performed a series of queries to analyze the data (see below). I then developed interactive data visualizations with Tableau BI Software linked here: [Tableau Data Visualizations.](https://public.tableau.com/views/VideoGameSalesAnalysis_16996624076180/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+* I created a PostrgreSQL database and then imported the data (csv file) into the table. I performed a series of queries to analyze the data (see below). I then developed interactive data visualizations with Tableau BI Software linked here: [Tableau Data Visualizations.](https://public.tableau.com/views/VideoGameSalesReport_17005335889750/SalesDashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 The number of sales is millions of copies. I created filters for year, genre, platform, and publisher. The second dashboard displays the sales for top 5 genres, platforms, and publishers with the year filter.  
-### Tableau Dashboards:
-<img width="1021" alt="Screen Shot 2023-11-20 at 5 37 01 PM" src="https://github.com/stephenaigner/VideoGame-Sales-Analysis/assets/90224544/cc55e952-ca9e-4e35-b32e-db76ebcaedfc">
-<img width="1020" alt="Screen Shot 2023-11-12 at 3 47 01 AM" src="https://github.com/stephenaigner/VideoGame-Sales-Analysis/assets/90224544/dab4f4a4-fc16-49fe-bc01-3689f8b7e140">
+### Tableau Dashboard:
+<img width="1328" alt="Screen Shot 2023-11-20 at 6 26 55 PM" src="https://github.com/stephenaigner/VideoGame-Sales-Analysis/assets/90224544/f82428e4-c64e-4306-a696-102788b80ed1">
+<img width="1386" alt="Screen Shot 2023-11-20 at 6 27 12 PM" src="https://github.com/stephenaigner/VideoGame-Sales-Analysis/assets/90224544/505ba73f-7aa7-40df-ab9e-98f8587dc6e6">
+
 
 ### Regional and global sales for each genre:
 <img width="586" alt="Screen Shot 2023-11-09 at 11 12 09 PM" src="https://github.com/stephenaigner/videogamesales/assets/90224544/706b9899-736a-41d9-8168-afe3f84619fa">
