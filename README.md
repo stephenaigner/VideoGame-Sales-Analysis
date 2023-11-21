@@ -3,7 +3,7 @@
 ### Project Description:
 This project was an analysis on video game sales during their year of release in different regions from 1980 to 2020. The data was sourced from a public site: [Data Source](https://www.kaggle.com/datasets/gregorut/videogamesales). I developed a PostrgreSQL database, imported the data (csv file) into the table, and performed a series of queries to analyze the data (see below). I then created interactive data visualizations with Tableau BI Software linked here: [Tableau Data Visualizations.](https://public.tableau.com/views/VideoGameSalesReport_17005335889750/SalesDashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-Dashboard Key Metrics:
+Dashboard key metrics:
 
 * Video game sales performance during release year
 * Total sales count and percentage for each region
